@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".LoginActivity">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_marginTop="175dp">
+
+
+        <Spinner android:layout_width="120dp"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/spinnerCountries"
+                 android:layout_marginRight="5dp">
+
+        </Spinner>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editTextPhone"
+              android:layout_weight = "2"
+              android:digits="0123456789"
+              android:hint="Enter your phone number"/>
+
+    </LinearLayout>
+        <Button
+                android:id="@+id/buttonContinue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="275dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Continue"
+                android:textAllCaps="false"
+                android:textColor="#cdd8f1" />
+
+
+
+</RelativeLayout>
