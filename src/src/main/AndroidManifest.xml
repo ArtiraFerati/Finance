@@ -16,11 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity">
-        </activity>
         <activity android:name=".VerifyPhoneActivity">
         </activity>
         <activity android:name=".ProfileActivity">
+        </activity>
+        <activity android:name=".HomeDashboard">
+        </activity>
+        <activity android:name=".LoginGoogleActivity">
+        </activity>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".HomeActivity">
+        </activity>
+        <activity android:name=".CategoriesActivity">
         </activity>
     </application>
 

@@ -7,7 +7,7 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static int SPLASH_TIME_OUT = 4000;
+    private static int SPLASH_TIME_OUT = 2000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent pinIntent = new Intent(MainActivity.this, LoginActivity.class);
+                Intent pinIntent = new Intent(MainActivity.this, HomeDashboard.class);
                 startActivity(pinIntent);
                 finish();
             }
